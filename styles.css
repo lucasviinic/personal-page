@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: beige;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+video {
+    position: fixed; 
+    right: 0; 
+    bottom: 0; 
+    min-width: 100%; 
+    min-height: 100%; 
+    width: auto; 
+    height: auto; 
+    z-index: -100;
+}
+
+.flex-box {
+    display: flex;
+    align-items: center;
+    margin-left: 33%;
+    margin-right: 33%;
+    flex-direction: column;
+}
+
+.my-picture {
+    margin-top: 2%;
+    border-radius: 50%;
+    width: 300px;
+}
+
+footer {
+    display: flex;
+    font-size: 12px;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.github-icon {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.github-username {
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
